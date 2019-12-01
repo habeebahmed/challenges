@@ -1,3 +1,10 @@
+# given number 3
+# 3 3 3 3 3
+# 3 2 2 2 3
+# 3 2 1 2 3
+# 3 2 2 2 3
+# 3 3 3 3 3
+
 def chaneRange(arr,start,end,number):
     for i in range(start,end):
         for j in range(start,end):
