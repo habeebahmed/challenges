@@ -5,7 +5,7 @@
 # 3 2 2 2 3
 # 3 3 3 3 3
 
-def chaneRange(arr,start,end,number):
+def changeRange(arr,start,end,number):
     for i in range(start,end):
         for j in range(start,end):
             arr[i][j] = number
