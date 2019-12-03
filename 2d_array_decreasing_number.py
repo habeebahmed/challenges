@@ -16,7 +16,7 @@ temp = 0
 arr = [[0 for x in range(2*no-1)] for y in range(2*no-1)] 
 for n in range(no,0,-1):
     temp = 2*n-1+count
-    chaneRange(arr,count,temp,n)
+    changeRange(arr,count,temp,n)
     count +=1
     
     
